@@ -1,3 +1,10 @@
+[![wakatime](https://wakatime.com/badge/github/ArtemZarubin/KotlinJetBrainsLessons.svg)](https://wakatime.com/badge/github/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub contributors](https://img.shields.io/github/contributors/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub top language](https://img.shields.io/github/languages/top/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub issues](https://img.shields.io/github/issues/ArtemZarubin/KotlinJetBrainsLessons)
+
 # Kotlin Learning Project
 This project serves as a learning repository for exploring and mastering the Kotlin programming language. It aims to cover the fundamentals and advanced concepts of Kotlin, making it suitable for both beginners and those with prior programming experience.
 
