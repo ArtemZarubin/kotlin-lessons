@@ -1,3 +1,4 @@
+[![wakatime](https://wakatime.com/badge/user/2509b9ea-8443-40e2-b402-41aceb195b25/project/45f0ca67-f0ad-4859-9c02-644e6a5fee47.svg)](https://wakatime.com/badge/user/2509b9ea-8443-40e2-b402-41aceb195b25/project/45f0ca67-f0ad-4859-9c02-644e6a5fee47)
 # Kotlin Learning Project
 This project serves as a learning repository for exploring and mastering the Kotlin programming language. It aims to cover the fundamentals and advanced concepts of Kotlin, making it suitable for both beginners and those with prior programming experience.
 
