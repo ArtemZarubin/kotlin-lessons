@@ -4,6 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/ArtemZarubin/KotlinJetBrainsLessons)
 ![GitHub top language](https://img.shields.io/github/languages/top/ArtemZarubin/KotlinJetBrainsLessons)
 ![GitHub issues](https://img.shields.io/github/issues/ArtemZarubin/KotlinJetBrainsLessons)
+![Kotlin lessons](https://github.com/ArtemZarubin/KotlinJetBrainsLessons/blob/master/src/main/images/Kotlin%20%231.1.jpg)
 
 # Kotlin Learning Project
 This project serves as a learning repository for exploring and mastering the Kotlin programming language. It aims to cover the fundamentals and advanced concepts of Kotlin, making it suitable for both beginners and those with prior programming experience.
