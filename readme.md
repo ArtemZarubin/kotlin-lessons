@@ -4,6 +4,8 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/ArtemZarubin/KotlinJetBrainsLessons)
 ![GitHub top language](https://img.shields.io/github/languages/top/ArtemZarubin/KotlinJetBrainsLessons)
 ![GitHub issues](https://img.shields.io/github/issues/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub](https://img.shields.io/github/license/ArtemZarubin/KotlinJetBrainsLessons)
+
 ![Kotlin lessons](https://github.com/ArtemZarubin/KotlinJetBrainsLessons/blob/master/src/main/images/Kotlin%20%231.1.jpg)
 
 # Kotlin Learning Project
