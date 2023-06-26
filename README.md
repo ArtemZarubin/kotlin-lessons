@@ -43,6 +43,4 @@ Here are some recommended resources to supplement your learning journey:
 - Kotlin Koans: https://play.kotlinlang.org/koans
 - JetBrains Academy: https://www.jetbrains.com/academy/
 
-_P.S. Of course I wrote it all with ChatGPT. The future is coming, ChatGPT is a tool, not a robot that will do everything for you._
-
 **_Happy coding and enjoy exploring Kotlin!_**
