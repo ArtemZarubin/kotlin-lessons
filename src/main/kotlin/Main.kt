@@ -1,26 +1,4 @@
 fun main(args: Array<String>) {
-    // Lesson #1. Hello World
-    println("Hello, World!")  // Simple example of a "Hello, World!" program
-
-    /* Recommended to declare all variables as read-only (val) by default.
-    Declare mutable variables (var) only if necessary.*/
-
-    val numberOfArms: Int = 2   // I have 2 arms
-    val numberOfLegs: Int = 2   // And also 2 legs
-    var myAge: Int = 16 // Surprise! I'm 16 y.o. (Maybe)
-    myAge = 19  // I'm getting older =( P.S. This is my real age
-
-    val friends: Int = 3
-    println("I have $friends real friends!")
-    // There are my real friends
-    println("But I also have ${friends + 3} good friends.")
-    // There are my usual friends
-
-    val nameMary = "Mary"   // Exercise #1. Complete the code to make the program print "Mary is 20 years old" to standard output
-    val age20 = 20
-    println("$nameMary is $age20 years old")
-    println()
-
     // Lesson #2. Basic types
     var players = 5
 
