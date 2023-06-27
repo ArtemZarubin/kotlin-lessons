@@ -40,8 +40,8 @@ We strive to maintain a high level of code quality. Please make sure your contri
 
 If you have any questions or need further assistance, please feel free to reach out to us. You can find additional resources and contact information at:
 
-- [Project Documentation](https://github.com/ArtemZarubin/KotlinJetBrainsLessons/tree/master/documentation/)
-- [Issue Tracker](https://github.com/ArtemZarubin/KotlinJetBrainsLessons/issues)
+- [Project Documentation](https://github.com/ArtemZarubin/kotlin-lessons/tree/master/documentation)
+- [Issue Tracker](https://github.com/ArtemZarubin/kotlin-lessons/issues)
 - [Community Forum](https://www.reddit.com/r/Kotlin/)
 
 We appreciate your interest and look forward to your contributions!
