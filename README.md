@@ -1,12 +1,12 @@
 [![wakatime](https://wakatime.com/badge/github/ArtemZarubin/KotlinJetBrainsLessons.svg)](https://wakatime.com/badge/github/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub contributors](https://img.shields.io/github/contributors/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub top language](https://img.shields.io/github/languages/top/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub issues](https://img.shields.io/github/issues/ArtemZarubin/KotlinJetBrainsLessons)
-![GitHub](https://img.shields.io/github/license/ArtemZarubin/KotlinJetBrainsLessons)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/ArtemZarubin/kotlin-lessons)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/ArtemZarubin/kotlin-lessons)
+![GitHub contributors](https://img.shields.io/github/contributors/ArtemZarubin/kotlin-lessons)
+![GitHub top language](https://img.shields.io/github/languages/top/ArtemZarubin/kotlin-lessons)
+![GitHub issues](https://img.shields.io/github/issues/ArtemZarubin/kotlin-lessons)
+![GitHub](https://img.shields.io/github/license/ArtemZarubin/kotlin-lessons)
 
-![Kotlin lessons](https://github.com/ArtemZarubin/KotlinJetBrainsLessons/blob/master/src/main/images/Kotlin%20%231.1.jpg)
+![Kotlin lessons](https://github.com/ArtemZarubin/kotlin-lessons/blob/master/src/main/images/Kotlin%20%231.1.jpg)
 
 # Kotlin Learning Project
 This project serves as a learning repository for exploring and mastering the Kotlin programming language. It aims to cover the fundamentals and advanced concepts of Kotlin, making it suitable for both beginners and those with prior programming experience.
@@ -28,7 +28,7 @@ The project is organized into various modules, each focusing on a specific topic
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-   https://github.com/ArtemZarubin/KotlinJetBrainsLessons.git
+   https://github.com/ArtemZarubin/kotlin-lessons.git
 2. Open the project in your preferred Kotlin IDE, such as IntelliJ IDEA or Android Studio.
 3. Navigate to the module of your choice and explore the source code, exercises, and examples provided.
 4. Feel free to experiment, modify, and extend the code to deepen your understanding of Kotlin.
