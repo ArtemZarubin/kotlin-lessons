@@ -1,38 +1,4 @@
 fun main(args: Array<String>) {
-    // Lesson #2. Basic types
-    var players = 5
-
-    // Some players leave the game
-    players = 3
-
-    players = players + 1 // Example of addition: 4
-    players += 5          // Example of addition: 9
-    players -= 2          // Example of subtraction: 7
-    players *= 3          // Example of multiplication: 21
-    players /= 7          // Example of division: 3
-
-    println("Number of players: $players") // Number of players: 3
-
-    // Variable declared without initialization
-    val woInit: Int
-    // Variable initialized
-    woInit = 7620   // My favorite number
-
-    // Variable explicitly typed and initialized
-    val myNameIs: String = "Artem Zarubin"
-
-    // Variables can be read because they have been initialized
-    println("Integer: $woInit") // Integer: 7620
-    println("My name is $myNameIs") // My name is Artem Zarubin
-
-    val aa: Int = 1000   // Exercise #2. Explicitly declare the correct type for each variable.
-    val bb: String = "log message"
-    val cc: Double = 3.14
-    val dd: Long = 100_000_000_000_000
-    val ee: Boolean = false
-    val ff: Char = '\n'
-    println()
-
     // Lesson #3. Collections
     // Read only list
     val readOnlyShapes = listOf("Circle", "Triangle", "Square")
