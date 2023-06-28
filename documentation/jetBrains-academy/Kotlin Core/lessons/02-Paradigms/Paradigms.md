@@ -1,6 +1,7 @@
 # Programming Paradigms
 Different programming tasks can be solved in different ways: you might need to write a function, or create a separate class with methods, and so on. All such variants are combined into different programming approaches, which are also called paradigms. Below we will analyze two main paradigms: imperative and declarative and their types.
-![Foreign friend](C:\Users\robot\IdeaProjects\KotlinJetBrainsLessons\src\main\images\Paradigms.svg)
+
+![Paradigms](https://github.com/ArtemZarubin/kotlin-lessons/blob/master/src/main/images/Paradigms.svg)
 ## Programming Paradigms
 Almost all modern languages are multi-paradigm. They easily combine the capabilities of the imperative and declarative approaches. Nevertheless, in the section about each paradigm, we will give a list of languages where, among other paradigms, the one discussed in the section is also implemented.
 
@@ -40,7 +41,7 @@ Parallel processing helps reduce instruction execution time. It does this by sha
 ## Declarative Paradigm
 Declarative programming is a programming paradigm in which it is important to specify the problem and the expected result of its solution. That is, in contrast to the imperative paradigm, where it is necessary to answer the question "How to do this?" you need to ask the questions "What needs to be done?" and "What will be the result of the work?". So, rather than providing step-by-step instructions, you tell the system what you need and let it try to come up with a solution.
 
-![Imperative versus Declarative](C:\Users\robot\IdeaProjects\KotlinJetBrainsLessons\src\main\images\ImperativeDeclarative.svg)
+![Imperative versus Declarative](https://github.com/ArtemZarubin/kotlin-lessons/blob/master/src/main/images/ImperativeDeclarative.svg)
 
 Declarative programming is divided into Logic, Functional, and Database paradigm types. We will describe them below.
 
