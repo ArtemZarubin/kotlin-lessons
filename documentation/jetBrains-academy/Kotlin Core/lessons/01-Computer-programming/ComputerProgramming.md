@@ -6,7 +6,7 @@ Computer programming combines technical skills with creative thinking, often reg
 ## Understanding Instructions and Programming Languages
 To write these sets of instructions, we need to think of computers as foreign time-traveling friends who only understand their native language. Just like when communicating with someone who doesn't speak your language, you have to provide clear and precise descriptions for every action you want the computer to perform. In our analogy, computers are like friends from the 12th century who know nothing about the present.
 
-![Foreign friend](C:\Users\robot\IdeaProjects\KotlinJetBrainsLessons\src\main\images\ForeignFriend.png)
+![Foreign friend](https://github.com/ArtemZarubin/kotlin-lessons/blob/master/src/main/images/ForeignFriend.png)
 
 For example, instead of instructing your computer to "call Steve from accounting," you would need to describe each step in detail:
 
@@ -21,7 +21,7 @@ Additionally, computers don't understand human languages like English or French.
 
 There are over a thousand programming languages, with old ones evolving and new ones emerging. The popularity of programming languages is constantly changing. Below is a list of the most popular programming languages as of March 2023, according to PYPL Popularity of Programming Language. For up-to-date information, it's best to visit their website.
 
-![Rating](C:\Users\robot\IdeaProjects\KotlinJetBrainsLessons\src\main\images\PYPL-march-2023.png)
+![Rating](https://github.com/ArtemZarubin/kotlin-lessons/blob/master/src/main/images/PYPL-march-2023.png)
 
 Each programming language has its own goals, strengths, and areas of application. Some languages are more challenging, while others are simpler and widely used. However, it's important to note that programming languages share common concepts, just like how different spoken languages share parts, constructions, and concepts. Learning a new programming language can be as difficult or easy as learning a foreign spoken language. If you understand the sentence "I can write" in English, grasping the concept of "ich kann schreiben" in German won't be too challenging.
 
