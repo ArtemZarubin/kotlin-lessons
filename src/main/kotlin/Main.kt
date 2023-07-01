@@ -78,4 +78,27 @@ fun main() {
     // This code prompts the user to rate the repository and provides different responses based on their input.
     // It includes a secret message that is revealed when the input is left blank.
     // The code demonstrates how to handle different scenarios based on the user's feedback.
+
+    print("Enter a number to perform a series of actions on it: ")
+    var interestingNumber = readln().toInt()
+
+    // Printing initial information
+    print("You are given the number $interestingNumber, " +
+            "after this operation: (interestingNumber++ + ++interestingNumber), " +
+            "which will be equal to the variable (interestingNumber is given number): ")
+
+    // Performing the operation
+    val resultOfPerform = interestingNumber++ + ++interestingNumber
+
+    // Getting user input for comparison
+    val compareWithResult = readln().toInt()
+
+    // Checking the user's answer
+    if (resultOfPerform == compareWithResult) {
+        println("Great answer, it's correct!")
+    } else if ((resultOfPerform - compareWithResult == 1) || (compareWithResult - resultOfPerform == 1)) {
+        println("Your answer was very close, think again!")
+    } else {
+        println("Your answer is wrong. You should think again!")
+    }
 }

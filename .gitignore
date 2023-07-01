@@ -1,3 +1,4 @@
+### Kotlin .gitignore template
 ### Java template
 # Compiled class file
 *.class
@@ -876,4 +877,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
