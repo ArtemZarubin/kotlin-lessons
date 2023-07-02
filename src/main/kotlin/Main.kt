@@ -11,6 +11,15 @@ fun formatData(month: String, day: String, year: String, hours: String, minutes:
     return "$formattedMonth/$formattedDay/$year $formattedHours:$formattedMinutes"
 }
 
+// The isEven function takes an integer argument checkNumber and returns a boolean value.
+fun isEven (checkNumber: Int): String {
+    if (checkNumber % 2 == 0) {
+        return "Even"
+    } else {
+        return "Odd"
+    }
+}
+
 fun main() {
     println("Hello, Kotlin!\n") // Wassup bro
 
@@ -101,4 +110,10 @@ fun main() {
     } else {
         println("Your answer is wrong. You should think again!")
     }
+    println()
+
+    print("Enter any number to find out if it's even or not: ")
+    val wantToKnow = readln().toInt()
+    // Print a message indicating the entered number and the result of calling the isEven function with that number.
+    println("Entered number $wantToKnow is ${isEven(wantToKnow)}")
 }
