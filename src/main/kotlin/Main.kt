@@ -13,12 +13,15 @@ fun formatData(month: String, day: String, year: String, hours: String, minutes:
 
 // The isEven function takes an integer argument checkNumber and returns a boolean value.
 fun isEven (checkNumber: Int): String {
-    if (checkNumber % 2 == 0) {
-        return "Even"
+    return if (checkNumber % 2 == 0) {
+        "Even"
     } else {
-        return "Odd"
+        "Odd"
     }
 }
+
+fun checkForLeap (leapYear: Int): Boolean = (leapYear % 4 == 0) && ((leapYear % 100 != 0) ||
+            (leapYear % 400 == 0))
 
 fun main() {
     println("Hello, Kotlin!\n") // Wassup bro
@@ -116,4 +119,11 @@ fun main() {
     val wantToKnow = readln().toInt()
     // Print a message indicating the entered number and the result of calling the isEven function with that number.
     println("Entered number $wantToKnow is ${isEven(wantToKnow)}")
+    println()
+
+    print("Enter a year to see if it's a leap year: ")
+    val leapYear = readln().toInt()
+    val leapYearMessage = if(checkForLeap(leapYear)) "Leap" else "Regular"
+
+    println("Entered year '$leapYear' is $leapYearMessage")
 }
