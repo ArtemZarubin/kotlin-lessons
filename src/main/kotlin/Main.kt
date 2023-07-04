@@ -1,6 +1,8 @@
 import java.util.Scanner
+import kotlin.math.abs
 
 const val LEADING_ZERO_THRESHOLD = 9
+const val SCORE_BONUS = 100
 
 fun formatData(month: String, day: String, year: String, hours: String, minutes: String): String {
     val formattedMonth = if (month.toInt() <= LEADING_ZERO_THRESHOLD) "0$month" else month
@@ -115,6 +117,7 @@ fun main() {
     }
     println()
 
+
     print("Enter any number to find out if it's even or not: ")
     val wantToKnow = readln().toInt()
     // Print a message indicating the entered number and the result of calling the isEven function with that number.
@@ -126,4 +129,47 @@ fun main() {
     val leapYearMessage = if(checkForLeap(leapYear)) "Leap" else "Regular"
 
     println("Entered year '$leapYear' is $leapYearMessage")
+    println()
+
+
+    var guessedNumber = true  // Boolean flag to track if the number is guessed
+    var numberOfAttempts = 3  // Maximum number of attempts allowed
+    var usedAttempts = 0  // Counter for the number of attempts used
+
+    print("Enter the left end of the range of numbers: ")
+    val leftEnd = readln().toInt()  // Read the left end of the range
+
+    print("Enter the right end of the range of numbers: ")
+    val rightEnd = readln().toInt()  // Read the right end of the range
+
+    println("Number generated...")
+    val randomNumberInRange = (leftEnd..rightEnd).random()  // Generate a random number within the given range
+
+    val rangeDifficulty = rightEnd - leftEnd  // Calculate the range difficulty
+    var score = SCORE_BONUS + rangeDifficulty  // Calculate the initial score based on range difficulty
+
+    while (guessedNumber && numberOfAttempts > 0) {
+        print("Now try to guess the generated number: ")
+        val guessingNumber = readln().toInt()  // Read the user's guessing number
+        numberOfAttempts--  // Decrement the number of attempts
+        usedAttempts++  // Increment the used attempts counter
+
+        guessedNumber = if (guessingNumber == randomNumberInRange) {
+            println("Congratulations! You guessed the number in $usedAttempts try. You can keep working!")
+            score *= ++numberOfAttempts  // Increase the score based on the remaining attempts
+            false  // The number is guessed, exit the loop
+        } else {
+            println("Unfortunately, you didn't guess the number, but you still have $numberOfAttempts attempts.")
+            true  // The number is not guessed yet, continue the loop
+        }
+    }
+
+    if (numberOfAttempts == 0) {
+        println("It's okay if you didn't guess the number, better luck next time! " +
+                "The generated number was $randomNumberInRange")
+        score = 0  // Set the score to 0 as no attempts left
+    }
+
+    println("Your score with x$numberOfAttempts multiplier: $score")  // Print the final score with the multiplier
+    println()
 }
